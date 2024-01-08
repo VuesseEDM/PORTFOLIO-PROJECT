@@ -6,7 +6,7 @@
 
 *Welcome to my Personal Portfolio!* 🚀     
 👉 [PDF]() 
-👉 [My Website](https://vuesseedm.github.io/MY-PORTFOLIO/)
+👉 [My Website](https://vuesseedm.github.io/Profile-Project/)
 
 
 
