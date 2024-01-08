@@ -1,0 +1,135 @@
+.contenuti {
+  margin: 30px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.title {
+  text-align: center;
+  margin-bottom: 55px;
+  background: conic-gradient(from 30deg, #40c9ff8e, #40c9ff, #111f4de8, rgb(255, 132, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rotateColors 3s cubic-bezier(0.25, 0.46, 0.45, 0.14) infinite, moveColors 3s cubic-bezier(0.25, 0.46, 0.45, 0.14) infinite alternate;
+  background-size: 150% 150%;
+}
+@keyframes rotateColors {
+  0% {
+    background-position: 0deg;
+  }
+  100% {
+    background-position: 360deg;
+  }
+}
+@keyframes moveColors {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+.title h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.group {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 720px;
+  max-height: 280px;
+  overflow:scroll;
+  position: relative;
+}
+.group img{
+  object-fit:contain;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out; 
+}
+.group img:hover{
+  opacity: 0.9;
+  transform: scale(1.1); 
+}
+.group h3{
+  margin-bottom: 15px;
+}
+.group p {
+  font-size: 17px;
+}
+.strip {
+  height: 30px;
+  background: linear-gradient(to left,#7289da, #c9fdd7);
+  margin: 10px 0;
+}
+.strip-down {
+  height: 30px;
+  background: linear-gradient(to right,#7289da, #c9fdd7);
+  margin: 10px 0;
+}
+.strip-2 {
+  height: 20px;
+ opacity: 0.5;
+  background: linear-gradient(to left,#c9fdd79f,#40c9ffa8, #fb00ff51, #40c9ff);
+  margin: 10px 0;
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1024px){
+  .group{
+    padding: 25px;
+    margin: 10px auto;
+    max-width:625px;
+    max-height: 315px;
+    overflow:scroll;
+  }
+  .group h3 {font-size: 3.7vh;}
+ 
+}
+/*TABLET*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .group{
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 235px;
+    }
+    .group p {font-size: 14px;}
+    .content{
+      margin-top: 10px;
+    }
+    .title h2{
+      font-size: 5.5vh;
+    }
+  
+}
+/*MOBILE*/
+@media only screen and (max-width: 600px) {
+  .title h2{font-size: 30px;}
+  .group h3{font-size: 20px;}
+  .group p {font-size: 11px;}
+  .group{
+    margin: 10px auto;
+    max-width: 290px;
+    max-height: 200px;
+   }
+    .content{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+    .strip{
+      margin-top: -15px;
+    }
+    .strip-down{
+      margin-top: 15px;
+      margin-bottom: -15px;
+    }
+}

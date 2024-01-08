@@ -1,0 +1,148 @@
+.skills{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  background: conic-gradient(from 30deg, #40c9ff8e, #40c9ff, #111f4de8, rgb(255, 132, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: rotateColors 3s cubic-bezier(0.25, 0.46, 0.45, 0.14) infinite, moveColors 3s cubic-bezier(0.25, 0.46, 0.45, 0.14) infinite alternate;
+  background-size: 150% 150%;
+}
+@keyframes rotateColors {
+  0% {
+    background-position: 0deg;
+  }
+  100% {
+    background-position: 360deg;
+  }
+}
+@keyframes moveColors {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+.container{
+  width: 100%;
+  padding-top: 50px;
+  padding-right: 2%;
+  padding-left: 2%;
+  height: auto;
+  z-index: 2;
+}
+.container-skillbar {
+  width: 100%;
+  padding-top: 80px;
+  padding-right: 2%;
+  padding-left: 2%;
+  height: auto;
+  overflow: none;
+}
+.skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  background: #efefef;
+  height: 40px;
+  border-radius: 3px;
+}
+.skillbar:hover{
+  opacity: 0.88;
+}
+.skillbar h2{
+    font-size: 40px;
+}
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  background: #6adcfa;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.skillbar-title span {
+  display: block;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0 20px;
+  height: 40px;
+  line-height: 30px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.skillbar-bar {
+  height: 40px;
+  border-radius: 3px;
+}
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 40px;
+  line-height: 30px;
+  color: #ffffff;
+  color: rgba(0, 0, 0, 0.5);
+}
+.icon {
+  margin:30px 0;
+  color: #333; 
+  padding: 30px 42px;
+}
+.icon:hover{
+  box-shadow: 0 0 20px #40c9ff inset;
+  border-radius: 10%;
+}
+.icon-skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1024px){}
+/*TABLET*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .container-skillbar{
+    margin-top: -20px;
+    margin: 0 auto;
+   width: 95%;
+  }
+  .skills{
+    margin-bottom: -50px;
+    font-size: 5.5vh;
+  }
+  .icon{
+    padding: 20px;
+    margin-bottom: -10px;
+  }
+}
+/*MOBILE*/
+@media only screen and (max-width: 600px) {
+
+  .skills{font-size: 30px;}
+
+  .container-skillbar{
+    padding-top: 20px;
+    width: 90%;
+     margin:0 auto;
+     
+    }
+
+  .icon{
+    margin: 30px 10px;
+    padding: 20px;
+  }
+ .svg-icon-2{
+  height: 45px;
+  width: 45px;
+ }
+}

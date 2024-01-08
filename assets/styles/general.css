@@ -1,0 +1,33 @@
+@import url('https://fonts.cdnfonts.com/css/lexend');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'lexend';
+}
+
+
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top,#c9fdd79f,#40c9ffa8, #fb00ff51, #40c9ff);
+  border-radius: 6px; 
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to top, #f3ecd383, #474f850e, #51e3d424, #f3ecd383);
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to top,#c9fdd7,#40c9ff, #fb00ff, #40c9ff);
+}

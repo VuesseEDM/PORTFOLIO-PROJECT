@@ -1,0 +1,97 @@
+
+.loading-1{
+  perspective: 1000px;
+  margin-top: -10px;
+}
+.cube {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 5s infinite linear;
+}
+
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.front {
+  background: linear-gradient(45deg, #f00, #0ff);
+  transform: translateZ(5px);
+}
+
+.back {
+  background: linear-gradient(45deg, #0ff, #f00);
+  transform: translateZ(-5px) rotateY(180deg);
+}
+
+.top {
+  background: linear-gradient(45deg, #f0f, #ff0);
+  transform: rotateX(90deg) translateZ(10px);
+}
+
+.bottom {
+  background: linear-gradient(45deg, #ff0, #f0f);
+  transform: rotateX(-90deg) translateZ(10px);
+}
+
+.left-1 {
+  background: linear-gradient(45deg, #0f0, #00f);
+  transform: rotateY(-90deg) translateZ(10px);
+}
+
+.right-1 {
+  background: linear-gradient(45deg, #00f, #0f0);
+  transform: rotateY(90deg) translateZ(10px);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
+}
+.loading-2{
+  perspective: 1000px;
+  margin-bottom: 25px;
+}
+.cube-2{
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  animation: rotate 5s infinite linear;
+}
+
+
+/*DESKTOP*/
+@media only screen and (min-width: 1024px){
+  .cube-2{
+    width: 250px;
+    height: 250px;
+    margin: 100px auto;
+}
+  
+}
+/*TABLET*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .cube-2{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+}
+/*MOBILE*/
+@media only screen and (max-width: 600px) {
+  .cube-2{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+}
