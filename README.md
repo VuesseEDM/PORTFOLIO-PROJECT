@@ -5,7 +5,7 @@
 
 
 *Welcome to my Personal Portfolio!* 🚀     
-👉 ![PDF](https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/DOC.png)    
+👉 [PDF](https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/Portfolio.pdf) 
 👉 [My Website](https://vuesseedm.github.io/PORTFOLIO-PROJECT/)   
 
 
@@ -26,7 +26,7 @@
 
  ## ⤵️  Preview  
 
-![PREVIEW]((https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/DOC.png)   
+![PREVIEW](https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/DOC.png)   
  🔧**How I Built My Portfolio** 
 ---
 *Tools and Technologies Used*
