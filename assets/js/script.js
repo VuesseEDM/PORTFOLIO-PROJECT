@@ -66,7 +66,7 @@ function openProjectPage() {
 
 function openPortfolio() {
 
-  var curriculumPath = 'https://vuesseedm.github.io/PORTFOLIO-OF-VINCENZO-SORRENTINO/index.html';   
+  var curriculumPath = 'https://vuesseedm.github.io/PORTFOLIO-PROJECT/';   
   
 
   window.open(curriculumPath, '_blank');
