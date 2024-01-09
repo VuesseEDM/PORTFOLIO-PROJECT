@@ -1,27 +1,27 @@
-# PORTFOLIO OF VINCENZO SORRENTINO 👽 [Vincenzo Sorrentino]
+# PORTFOLIO OF VINCENZO SORRENTINO 👽 
 ---
  
 
 
 
 *Welcome to my Personal Portfolio!* 🚀     
-👉 [PDF](https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/Portfolio.pdf) 
-👉 [My Website](https://vuesseedm.github.io/PORTFOLIO-PROJECT/)   
+👉 [PDF](https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/Portfolio.pdf)    
+👉 [My Website](https://vuesseedm.github.io/PORTFOLIO-PROJECT/)       
 
 
 
 
-📂 ```Folder Structure```
+📂 ```Folder Structure```   
 
 |--📁assets  
-|--|-- 📃document     
-|--|-- 🌈images       
-|--|-- ✨styles      
-|--|-- 🪶fonts   
-|--|-- ⚙️js            
+|--|--📃document     
+|--|--🌈images       
+|--|--✨styles      
+|--|--🪶fonts   
+|--|--⚙️js            
 |--📖README.md     
 |--🌐index.html      
-|--🌐projects.html    
+|--🌐projects.html      
 ---
 
  ## ⤵️  Preview  
