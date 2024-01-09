@@ -60,7 +60,7 @@
 
 1. Bash and copy code
 
-2. git clone https://github.com/username/tuo-portfolio.git   
+2. git clone https://github.com/VuesseEDM/PORTFOLIO-PROJECT.git   
 
 3. Open the Project in Visual Studio Code   
 
