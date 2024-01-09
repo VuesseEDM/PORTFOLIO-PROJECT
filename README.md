@@ -5,7 +5,7 @@
 
 
 *Welcome to my Personal Portfolio!* 🚀     
-👉 [PDF](https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/DOC.png) 
+👉 ![PDF](https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets/documents/DOC.png) 
 👉 [My Website](https://vuesseedm.github.io/PORTFOLIO-PROJECT/)
 
 
