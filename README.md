@@ -26,8 +26,7 @@
 
  ## ⤵️  Preview  
 
-![PREVIEW]   
-(https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets%2Fdocuments%2FDOC.png)   
+[PREVIEW] (https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets%2Fdocuments%2FDOC.png)   
  🔧**How I Built My Portfolio** 
 ---
 *Tools and Technologies Used*
