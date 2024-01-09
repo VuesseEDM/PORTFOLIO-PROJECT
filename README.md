@@ -26,9 +26,8 @@
 
  ## ⤵️  Preview  
 
-![PREVIEW](https://github.com/VuesseEDM/PORTFOLIO-OF-VINCENZO-SORRENTINO/blob/main/assets/documents/DOC.png?raw=true)
-
-
+![PREVIEW]   
+(https://github.com/VuesseEDM/PORTFOLIO-PROJECT/blob/main/assets%2Fdocuments%2FDOC.png)   
  🔧**How I Built My Portfolio** 
 ---
 *Tools and Technologies Used*
