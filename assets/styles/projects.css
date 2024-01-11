@@ -49,7 +49,7 @@
   padding: 5px 15px;
   justify-content: center;
   max-width: 800px; 
-  opacity: 0.5;
+  opacity: 1;
   background: linear-gradient(to right,#c9fdd79f,#40c9ffa8, #fb00ff51, #40c9ff);
 }
 .card {
@@ -66,7 +66,7 @@
 }
 
 .container-4:hover > :not(:hover) {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 .title-card {
   display: inline-block;
@@ -219,22 +219,34 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center; 
     margin: 0 auto;
-    padding: 5px 10px;
+    padding: 10px;
     justify-content: center;
+  }
+
+    .title-card{
+    padding: 4px;
   }
   
   .card {
-    padding: 1.7rem;
-    margin: 1rem;
-    width: 100%
+  padding: 20px;
+    margin: 10px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    border-radius: 30px;
+  }
+
+   .preview{
+    background-size: contain;
+    opacity: 1;
   }
 
   .custom-section {
     margin: 20px 20px; 
     padding: 10px;
-    
+  
   }
   
   .section-title {
