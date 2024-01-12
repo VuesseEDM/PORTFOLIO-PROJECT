@@ -157,9 +157,10 @@
   }
   .title-card{
     margin-top: 25px;
+padding:5px;
     }
     .projects-title{
-      font-size: 5vh;
+      font-size: 8vh;
     }
 }
 
