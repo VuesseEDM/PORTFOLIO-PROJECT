@@ -48,8 +48,8 @@
   margin: 0 auto;
   padding: 5px 15px;
   justify-content: center;
-  max-width: 800px; 
-  opacity: 1;
+  max-width: 1000px; 
+  opacity: 0.9;
   background: linear-gradient(to right,#c9fdd79f,#40c9ffa8, #fb00ff51, #40c9ff);
 }
 .card {
@@ -157,7 +157,7 @@
   }
   .title-card{
     margin-top: 25px;
-padding:5px;
+padding:10px;
     }
     .projects-title{
       font-size: 8vh;
@@ -171,6 +171,11 @@ padding:5px;
     max-width: 600px;
     margin-bottom: 20px;
     padding: 20px;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    justify-content: center;
+    
   }
   .card {
     padding: 1.5rem;
