@@ -17,10 +17,6 @@ document.querySelector('.menu-toggle').addEventListener('click', toggleMenu);
 
 
 
-function openCurriculum() {
-  var curriculumPath = 'assets/documents/CV.pdf';
-  window.open(curriculumPath, '_blank');
-}
 
 
 
