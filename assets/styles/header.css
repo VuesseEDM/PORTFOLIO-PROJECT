@@ -110,6 +110,9 @@
   color: #7289da;
   text-decoration: none;
 }
+.button-1 a:hover{
+    text-decoration: underline;
+}
 .button-1::before {
 content: '';
   position: absolute;
@@ -168,9 +171,12 @@ content: '';
   border-radius: 5px;
   cursor: pointer;
 }
-.button-2 {
+.button-2 a{
   color:  #c9fdd7;
   text-decoration: none;
+}
+.button-2 a:hover{
+  text-decoration: underline;
 }
 .button-2::before {
   content: '';
