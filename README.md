@@ -21,7 +21,8 @@
 |--|--⚙️js            
 |--📖README.md     
 |--🌐index.html      
-|--🌐projects.html      
+|--🌐projects.html     
+|--🌐cv.html 
 ---
 
  ## ⤵️  Preview  
